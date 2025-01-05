@@ -21,7 +21,7 @@ BuildRequires: pkgconfig(tinyxml2)
 
 
 %description
-Freescale/NXP I.MX Chip image deploy tools
+%{summary}.
 
 
 %prep
