@@ -49,6 +49,8 @@ cp -p 70-%{name}.rules %{buildroot}/%{_udevrulesdir}/70-%{name}.rules
 
 
 %files
+%doc README.md
+%license LICENSE
 %{_bindir}/%{name}
 %{_udevrulesdir}/70-%{name}.rules
 
